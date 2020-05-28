@@ -198,3 +198,25 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
 [Solution](Solutions/Que018.py)
+
+---
+Problem 19:
+
+This problem was asked by Facebook.
+A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+
+[Solution](Solutions/Que019.py)
+
+
+---
+Problem 20:
+
+This problem was asked by Google.
+Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
+For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
+In this example, assume nodes with the same value are the exact same node objects.
+Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+
+[Solution](Solutions/Que020.py)
+
