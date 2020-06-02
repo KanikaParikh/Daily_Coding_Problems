@@ -241,6 +241,15 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 
 [Solution](Solutions/Que022.py)
 
+---
+Problem 26:
+
+This problem was asked by Google.
+Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+The list is very long, so making more than one pass is prohibitively expensive.
+Do this in constant space and in one pass.
+
+[Solution](Solutions/Que026.py)
 
 ---
 Problem 27:
@@ -261,3 +270,6 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
 [Solution](Solutions/Que029.py)
+
+
+
