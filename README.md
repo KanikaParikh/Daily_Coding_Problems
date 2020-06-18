@@ -242,6 +242,18 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 [Solution](Solutions/Que022.py)
 
 ---
+Problem 25:
+
+This problem was asked by Facebook.
+Implement regular expression matching with the following special characters:
+. (period) which matches any single character
+* (asterisk) which matches zero or more of the preceding element That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
+For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
+Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+
+[Solution](Solutions/Que025.py)
+
+---
 Problem 26:
 
 This problem was asked by Google.
@@ -270,6 +282,28 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
 [Solution](Solutions/Que029.py)
+
+
+---
+Problem 35:
+
+This problem was asked by Google.
+Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+Do this in linear time and in-place.
+For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+[Solution](Solutions/Que035.py)
+
+
+---
+Problem 36:
+
+This problem was asked by Dropbox.
+Given the root to a binary search tree, find the second largest node in the tree.
+
+[Solution](Solutions/Que036.py)
+
+
 
 
 
