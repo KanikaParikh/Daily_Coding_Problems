@@ -323,6 +323,52 @@ Implement run-length encoding and decoding. You can assume the string to be enco
 
 
 ---
+Problem 31:
+
+This problem was asked by Google.
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between "kitten" and "sitting" is three: substitute the "k" for "s", substitute the "e" for "i", and append a "g".
+Given two strings, compute the edit distance between them.
+
+[Solution](Solutions/Que031.py)
+
+
+---
+Problem 33:
+
+This problem was asked by Microsoft.
+Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
+Recall that the median of an even-numbered list is the average of the two middle numbers.
+For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
+
+```
+
+2
+1.5
+2
+3.5
+2
+2
+2
+
+```
+
+
+[Solution](Solutions/Que033.py)
+
+
+---
+Problem 34:
+
+This problem was asked by Quora.
+Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
+For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
+As another example, given the string "google", you should return "elgoogle".
+
+
+[Solution](Solutions/Que034.py)
+
+
+---
 Problem 35:
 
 This problem was asked by Google.
@@ -340,6 +386,53 @@ This problem was asked by Dropbox.
 Given the root to a binary search tree, find the second largest node in the tree.
 
 [Solution](Solutions/Que036.py)
+
+
+---
+Problem 37:
+
+This problem was asked by Google.
+The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
+For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+You may also use a list or array to represent a set.
+
+[Solution](Solutions/Que037.py)
+
+
+---
+Problem 38:
+
+This problem was asked by Microsoft.
+You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+
+[Solution](Solutions/Que038.py)
+
+
+
+---
+Problem 40:
+
+This problem was asked by Google.
+Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
+For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
+Do this in $O(N)$ time and $O(1)$ space.
+
+[Solution](Solutions/Que040.py)
+
+
+
+---
+Problem 42:
+
+This problem was asked by Google.
+Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
+Integers can appear more than once in the list. You may assume all numbers in the list are positive.
+For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+
+[Solution](Solutions/Que042.py)
+
+
+
 
 
 
